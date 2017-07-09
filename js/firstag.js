@@ -9,6 +9,7 @@ var app = angular.module("myModule", []).controller("myController", function ($s
 			]; 
  
             $scope.employees = employees;   
+			
 
 			  $scope.sortColumn = "name";
 			  $scope.reverseSort = false; 
